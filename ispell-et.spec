@@ -7,8 +7,8 @@ Group:		Applications/Text
 Source0:	http://www.meso.ee/~jjpp/speller/%{name}_%{version}.tar.gz
 # Source0-md5:	00c2351eed7a54c1fb2e3a529a960121
 URL:		http://www.meso.ee/~jjpp/speller/
-BuildRequires:	ispell >= 3.2.06
-Requires:	ispell >= 3.2.06
+BuildRequires:	ispell
+Requires:	ispell
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
